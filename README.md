@@ -46,6 +46,12 @@ The dataset used for this research is the CVA-Net dataset (Lin et al., 2022), wh
 
 [Download CVA-Net Dataset](https://github.com/jhl-Det/CVA-Net)
 
+The CVA-Net dataset and baseline model were introduced in the following paper:
+
+> Lin, Z., Lin, J., Zhu, L., Fu, H., Qin, J., & Wang, L. (2022). A New Dataset and a Baseline Model for Breast Lesion Detection in Ultrasound Videos. *Medical Image Computing and Computer Assisted Intervention -- MICCAI 2022*, Springer, Cham, 614-623.
+
+Please consider citing the original CVA-Net paper if you use this dataset in your research.
+
 ### Dataset Directory Structure
 
 ```
