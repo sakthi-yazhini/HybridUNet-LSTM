@@ -120,3 +120,43 @@ You can train and evaluate the models by running the respective Python scripts. 
     ```
 
 These scripts will handle the entire process from loading the dataset, training the model, and evaluating its performance. The results, including confusion matrices, classification reports, and other relevant metrics, will be displayed in the console after the evaluation is complete.
+
+## Running on HPC (ARC4)
+
+For users who wish to run the models on a High Performance Computing (HPC) cluster like ARC4, shell scripts are provided to submit the jobs.
+
+### Submitting Jobs to ARC4
+
+1. **Modify the Shell Script:**
+
+    Edit the provided `.sh` shell script to match your environment's specifics, such as paths, resource allocation, and module loading.
+
+2. **Submit the Job:**
+
+    Submit the job to ARC4 using the following command:
+
+    ```bash
+    qsub cnn_job.sh
+    ```
+
+    ```bash
+    qsub transformer_job.sh
+    ```
+
+    ```bash
+    qsub unet_lstm_job.sh
+    ```
+
+
+
+3. **Monitor the Job:**
+
+    You can monitor your job status with:
+
+    ```bash
+    qstat
+    ```
+
+### Acknowledgment
+
+This work was undertaken on ARC4, part of the High Performance Computing facilities at the University of Leeds, UK. 
