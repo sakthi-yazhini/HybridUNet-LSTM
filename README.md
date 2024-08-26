@@ -2,7 +2,7 @@
 This repository is an implementation of my master's dissertation "Temporal and Spatial Fusion for Breast Lesion Classification in Ultrasound Videos using Hybrid UNet-LSTM Architecture".
 
 ## Abstract
-This research focuses on developing a Hybrid UNet-LSTM architecture that enhances the classification of breast lesions in ultrasound videos, crucial for the early and accurate diagnosis of breast cancer. The proposed model integrates Convolutional Neural Networks (CNNs) with Long Short-Term Memory (LSTM) networks, inspired by the U-Net architecture, to capture both spatial and temporal features from video sequences. The approach addresses the challenges inherent in ultrasound imaging, such as speckle noise, operator dependency, and lesion appearance variability, thereby improving classification accuracy and robustness.
+This research focuses on developing a Hybrid UNet-LSTM architecture that enhances the classification of breast lesions in ultrasound videos, crucial for the early and accurate diagnosis of breast cancer. The proposed model integrates Convolutional Neural Networks (CNNs) with Long Short-Term Memory (LSTM) networks, inspired by the U-Net architecture, to capture both spatial and temporal features from video sequences. 
 
 ## Requirements
 ### Setting Up the Conda Environment
@@ -75,16 +75,8 @@ Dataset/
 
 Pre-trained models can be downloaded from the following Google Drive link:
 
-[Download Pre-trained Models](#)
+[Download Pre-trained Models](https://drive.google.com/drive/folders/1IbXMqSxZHMv1nV88xg-A6u0tGOwJF2BE?usp=share_link)
 
-## How to Reproduce the Experiment
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/sakthi-yazhini/HybridUNet-LSTM.git
-cd HybridUNet-LSTM
-```
 
 ## How to Reproduce the Experiment
 
